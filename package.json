@@ -1,0 +1,14 @@
+{
+  "name": "hello-front-scroll",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

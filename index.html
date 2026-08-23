@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="고객 사례와 회사 소식을 모아 보여주는 페이지"
+    />
+    <title>고객 사례와 회사 소식</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script type="module" src="./dist/main.js"></script>
+  </head>
+  <body>
+    <main class="page">
+      <section class="lead-section" aria-labelledby="lead-title">
+        <div class="inner lead-section__inner">
+          <p class="eyebrow">사례와 소식</p>
+          <h1 id="lead-title">고객과 함께 만든 변화</h1>
+          <p>
+            현장에서 사용 중인 서비스 사례와 최근 회사 소식을 모았습니다.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="horizontal-section"
+        data-horizontal-section
+        aria-label="사례 및 소식 카드"
+      >
+        <div class="horizontal-section__sticky">
+          <header class="active-card-header inner" data-active-header>
+            <h2 data-active-title>고객 사례</h2>
+            <p data-active-description>업무 환경에 맞춘 솔루션 적용 사례</p>
+            <a href="#" data-active-link aria-label="고객 사례 더보기">더보기</a>
+          </header>
+
+          <div class="horizontal-track" data-horizontal-track></div>
+        </div>
+      </section>
+
+      <section class="lead-section lead-section--dark" aria-labelledby="closing-title">
+        <div class="inner lead-section__inner">
+          <p class="eyebrow">안내</p>
+          <h2 id="closing-title">새로운 소식을 계속 전하겠습니다</h2>
+          <p>
+            고객 사례와 서비스 안내는 준비되는 대로 순차적으로 공개됩니다.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
