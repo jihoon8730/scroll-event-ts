@@ -2,6 +2,11 @@
 
 HTML, CSS, TypeScript로 구현한 카드 섹션입니다.
 
+## 링크
+
+- GitHub 레포지토리: https://github.com/jihoon8730/hello-front-test
+- 구현 페이지: https://jihoon8730.github.io/hello-front-test/
+
 ## 실행
 
 ```bash
